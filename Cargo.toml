@@ -1,0 +1,9 @@
+[package]
+name = "deluge-migrator"
+version = "0.1.0"
+authors = ["Andy Russell <arussell123@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bendy = { path = "../bendy", features = ["serde"] }
+serde = { version = "1.0.110", features = ["derive"] }
